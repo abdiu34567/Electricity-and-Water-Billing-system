@@ -1,28 +1,24 @@
-
-
 # **ELECTRICITY BILLING MANAGEMENT SYSTEM**
 
-**DEVELOPED BY** : **Ayush Saha, Dhruva Shaw, Smyan Kotkar**
-#
-*THIS WAS OUR SCHOOL PROJECT*
 #
 
+_THIS WAS OUR SCHOOL PROJECT_
 
+#
 
 # Content
 
-| **Sl. No.** | **Topic** |
-| --- | --- |
-| **1** | **Modules Used**** (In-Built &amp; User created modules)** |
-| **2** | **Objective, Scope &amp; Backbone of the Project** |
-| **3** | **Table Structure Used** |
-| **4** | **Working Description** |
-| **6** | **Bibliography** |
+| **Sl. No.** | **Topic**                                                      |
+| ----------- | -------------------------------------------------------------- |
+| **1**       | **Modules Used\*\*** (In-Built &amp; User created modules)\*\* |
+| **2**       | **Objective, Scope &amp; Backbone of the Project**             |
+| **3**       | **Table Structure Used**                                       |
+| **4**       | **Working Description**                                        |
+| **6**       | **Bibliography**                                               |
 
 # MODULES USED
 
 ## **Inbuilt modules**
-
 
 - **sys** : The system module is used to close the interpreter programmatically using sys.exit()
 - **mysql-connector** : This module is used to perform the backend operations with the MySQL database.
@@ -38,7 +34,6 @@
 - **cProfile** : This module is to provide a deterministic profiling of the python program
 - **re** : From the regular expression module compile function imported and is used to compile a regular expression pattern into a regular expression object
 - **pyinstaller** : This is used to convert the python file to exe file.
-
 
 ## **Custom (user made) Modules**
 
@@ -70,72 +65,69 @@ We as a team hope that the humble effort taken from our side would be able to cr
 
 **Table Structure**
 
-| **Table Name** | **Customer** |                                                        
-| --- | --- |
-| **Field Name** | **Type** |
-| id | integer |
-| meterno | integer |
-| consumerno | biginteger |
-| consumername | varchar() |
-| load\_con | varchar() |
-| unit\_consumed | integer |
-| month | varchar() |
-| year | integer ||
-| email | varchar() |
-| address | text |
-| amountgen | decimal |
+| **Table Name** | **Customer** |
+| -------------- | ------------ | --- |
+| **Field Name** | **Type**     |
+| id             | integer      |
+| meterno        | integer      |
+| consumerno     | biginteger   |
+| consumername   | varchar()    |
+| load_con       | varchar()    |
+| unit_consumed  | integer      |
+| month          | varchar()    |
+| year           | integer      |     |
+| email          | varchar()    |
+| address        | text         |
+| amountgen      | decimal      |
 
 ##
 
-| **Table** | **User** |
-| --- | --- |
-| **Field Name** | **Type** |
-| id | int |
-| username | varchar() |
-| password | varchar() |
-| branch | varchar() |
-| dept\_no | int |
-| useradmin\_id | varchar() |
+| **Table**      | **User**  |
+| -------------- | --------- |
+| **Field Name** | **Type**  |
+| id             | int       |
+| username       | varchar() |
+| password       | varchar() |
+| branch         | varchar() |
+| dept_no        | int       |
+| useradmin_id   | varchar() |
 
 ##
 
 | **Table Name** | **DEPT** |
-| --- | --- |
+| -------------- | -------- |
 | **Field Name** | **Type** |
-| id | int |
-| dept_no |int |
-| deptname | text |
+| id             | int      |
+| dept_no        | int      |
+| deptname       | text     |
 
 ##
 
 | **Table Name** | **Login** |
-| --- | --- |
-| **Field Name** | **Type** |
-| id | int |
-| userid | varchar() |
-| branch | text |
-| session\_in | datetime |
-| session\_out | datetime |
-| dept\_no | int |
-
-
+| -------------- | --------- |
+| **Field Name** | **Type**  |
+| id             | int       |
+| userid         | varchar() |
+| branch         | text      |
+| session_in     | datetime  |
+| session_out    | datetime  |
+| dept_no        | int       |
 
 # WORKING DESCRIPTION
 
-- **FILES GENERATED**** :**
+- **FILES GENERATED\*\*** :\*\*
 
-config.json, customer\_details.csv, employee\_details.csv, admin\_message.txt, billEmailnotAdmin\_message.txt, billGennotAdmin\_message.txt, create\_msg.txt, createdBill.txt, custdetails.txt, welcome\_message.txt
+config.json, customer_details.csv, employee_details.csv, admin_message.txt, billEmailnotAdmin_message.txt, billGennotAdmin_message.txt, create_msg.txt, createdBill.txt, custdetails.txt, welcome_message.txt
 
 An exe file is generated for distribution.
 
-- **DIRECTORY STRUCTURE**  **:**
+- **DIRECTORY STRUCTURE** **:**
 
 The master folder contains a folder named &#39;files&#39;.
 
 Then the files folder contains the following 5 folder.
 
-config\_file&#39;, &#39;customerBillfolder&#39;, &#39;details&#39;, &#39;export&#39;, &#39;messages&#39;
-
+config_file&#39;, &#39;customerBillfolder&#39;, &#39;details&#39;, &#39;export&#39;, &#39;messages&#39;
 
 The program has been designed with following modes of operation:
 
